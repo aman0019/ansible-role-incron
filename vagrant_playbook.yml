@@ -15,9 +15,8 @@
         line: "echo user $1 $2 >> /tmp/incron_demo_system_table.log"
 
   roles:
-    - role: .
-      incron_install_from_source: true
-      incron_install_from_source_force_update: true
+      # incron_install_from_source: true
+      # incron_install_from_source_force_update: true
       incron_system_tables:
         - name: demo
           path: /home/
